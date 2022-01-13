@@ -1,0 +1,26 @@
+body{
+    background-image: url(images/weather-app-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.search{
+    float: right;
+    height: 50px;
+    width: 200px;
+    margin-right: 30px;
+    margin-top: 30px;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    color: white;
+}
+
+::placeholder{
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
